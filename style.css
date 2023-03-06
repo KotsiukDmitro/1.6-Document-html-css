@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.menu {
+  border-right: 2px solid grey;
+  height: 100vh;
+  line-height: 30px;
+  background-color: rgb(223, 216, 216);
+  min-width: 250px;
+  position: fixed;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+  padding-top: 3px;
+}
+
+.item {
+  list-style: none;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.text {
+  padding-left: 280px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.title-text {
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.name {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
